@@ -2,7 +2,7 @@ from openai import OpenAI
 import streamlit as st
 import time
 
-assistant_id = ''
+assistant_id = st.secrets["assistant_id"]
 
 with st.sidebar:
     st.link_button("더 좋은 컨텐츠를 위해 후원하기", "https://toss.me/kimfl")
