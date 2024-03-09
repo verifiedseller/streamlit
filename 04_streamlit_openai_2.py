@@ -5,7 +5,7 @@ import time
 assistant_id = st.secrets["assistant_id"]
 
 with st.sidebar:
-    st.link_button("더 좋은 컨텐츠를 위해 후원하기", "https://toss.me/kimfl")
+    st.link_button(f"{assistant_id} 더 좋은 컨텐츠를 위해 후원하기", "https://toss.me/kimfl")
     
     iframe_html = ""
     st.markdown(iframe_html, unsafe_allow_html=True)
